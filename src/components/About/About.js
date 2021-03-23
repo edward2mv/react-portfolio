@@ -41,8 +41,8 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
+          <Techstack iconName="cib-wordpress" />
+          <Techstack iconName="cib-go" />
           <Techstack iconName="devicon-javascript-plain " />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
@@ -57,10 +57,10 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-linux-plain" />
           <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
+          <Techstack iconName="cib-yarn" />
           <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
-          <Techstack iconName="cib-heroku" />
+          <Techstack iconName="cib-jenkins" />
+          <Techstack iconName="cib-docker" />
         </Row>
         <Github />
       </Container>
