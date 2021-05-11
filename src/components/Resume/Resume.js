@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/eudys-medina-cv.pdf";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -66,18 +66,18 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
+              title="Software Engineering [UNAPEC, Santo Domingo, RD] "
+              date="2014 - Present"
               content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
             />
             <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
-              date="2015 - 2017"
+              title="Bachiller [El Redentor, Bani]"
+              date="2010 - 2013"
               content={["Precentage: 88%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
+              title="Primaria [Nuestra Senora de Fatima,Bani] "
+              date="2002 - 2010"
               content={["Precentage: 86%"]}
             />
             <h3 className="resume-title">Ranks and Achivements</h3>

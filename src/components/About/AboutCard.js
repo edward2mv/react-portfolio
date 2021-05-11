@@ -29,9 +29,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "all we need is love!"{" "}
+            "Anyone who has never made a mistake has never tried anything new."{" "}
           </p>
-          <footer className="blockquote-footer">Tirone González</footer>
+          <footer className="blockquote-footer">Albert Einstein</footer>
         </blockquote>
       </Card.Body>
     </Card>
